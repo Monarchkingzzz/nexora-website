@@ -544,7 +544,7 @@ nav {
 /* FEATURED WORK / PORTFOLIO */
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 26px;
 }
 
@@ -577,6 +577,7 @@ nav {
 .project-cover.c1 { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); }
 .project-cover.c2 { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); }
 .project-cover.c3 { background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); }
+.project-cover.c4 { background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); }
 
 .mockup-window {
   width: 82%;
