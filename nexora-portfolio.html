@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Nexora — Simple, Modern Web Design & IT Solutions</title>
+  <meta name="description" content="Nexora builds clean, custom websites, booking systems, and provides dependable IT support for growing businesses." />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nexora — Web Design & IT Solutions" />
+  <meta property="og:description" content="Custom websites, booking systems, and friendly IT support built by Joshua & Maurice." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='68' font-size='50' font-weight='bold' fill='white' text-anchor='middle' font-family='sans-serif'>N</text></svg>" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top Friendly Notification -->
+  <div class="top-banner">
+    <span>✨ Available for new website &amp; IT projects in 2026</span>
+    <span style="opacity:0.4;">|</span>
+    <a href="#contact">Start a conversation with us →</a>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="wrap">
+      <nav>
+        <a href="#" class="logo">
+          <div class="logo-mark">N</div>
+          <span>Nexora</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="tel:0719203724" class="nav-phone">
+            📞 0719 203 724
+          </a>
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <button class="menu-btn" id="menuBtn" aria-label="Open Menu">☰</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <div class="drawer-head">
+        <div class="logo">
+          <div class="logo-mark">N</div>
+          <span>Nexora</span>
+        </div>
+        <button id="drawerClose" style="font-size: 1.4rem; padding: 4px;">✕</button>
+      </div>
+
+      <div class="drawer-menu">
+        <a href="#services">Services</a>
+        <a href="#work">Our Work</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div>
+      <a href="#contact" class="btn btn-primary" style="width: 100%; margin-bottom: 12px;">Get in Touch</a>
+      <div style="font-size: 0.85rem; color: var(--text-muted); text-align: center;">
+        Call: 0719 203 724 / 0702 713 853
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="wrap hero-content">
+      <div class="badge">
+        <span>👋 Welcome to Nexora</span>
+      </div>
+
+      <h1>
+        Simple, beautiful websites &amp; <span class="highlight">dependable IT solutions.</span>
+      </h1>
+
+      <p class="sub">
+        We help business owners build modern websites, set up custom booking and call routing software, and keep their tech running smoothly — without any technical headache.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          Start a Project →
+        </a>
+        <a href="#work" class="btn btn-white">
+          See Our Work ↓
+        </a>
+      </div>
+
+      <div class="hero-highlights">
+        <div class="highlight-item">
+          <span class="highlight-icon">✓</span>
+          <span>Fast Turnaround</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">✓</span>
+          <span>Direct Access to Founders</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-icon">✓</span>
+          <span>100% Guaranteed Support</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section section-bg" id="services">
+    <div class="wrap">
+      <div class="section-head center">
+        <div class="badge teal">OUR SERVICES</div>
+        <h2>Everything your business needs to thrive online</h2>
+        <p class="lead">From a brand-new website to backend software and office tech support, we take care of the heavy lifting.</p>
+      </div>
+
+      <div class="services-grid">
+        
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Website Design</h3>
+          <p>Custom, mobile-friendly websites that look great on any phone or computer and turn visitors into paying customers.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon teal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Custom Software &amp; Bookings</h3>
+          <p>Easy-to-use booking platforms, call routing systems, and internal tools built around your exact daily workflow.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>IT Support &amp; Maintenance</h3>
+          <p>Fast technical troubleshooting, security updates, and routine care so your website and systems never go down.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon teal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <h3>Office Hardware &amp; Wi-Fi</h3>
+          <p>Computer sourcing, stable office Wi-Fi setup, and network troubleshooting for your physical workspace.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="badge">SELECTED WORK</div>
+        <h2>Real projects we've built and delivered</h2>
+        <p class="lead">Here are a few of the websites and software systems built end-to-end by Nexora.</p>
+      </div>
+
+      <div class="work-grid">
+        
+        <!-- Project 1: M-Travel -->
+        <div class="project-card">
+          <div class="project-cover c1">
+            <div class="mockup-window">
+              <div class="mockup-dots"><span></span><span></span><span></span></div>
+              <div class="mockup-badge" style="background:#dbeafe; color:#1e40af; font-size:9px; font-weight:bold; display:flex; align-items:center; justify-content:center;">M-TRAVEL</div>
+              <div class="mockup-bar"></div>
+              <div class="mockup-bar short"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Website &amp; Booking</span>
+            <h3>M-Travel &amp; Tours</h3>
+            <p>A fast, mobile-friendly travel website built to make exploring safari packages simple for customers and easy to book on WhatsApp.</p>
+            <a href="https://m-travel-tours.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <span>Visit m-travel-tours.vercel.app</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: RingBackTech -->
+        <div class="project-card">
+          <div class="project-cover c2">
+            <div class="mockup-window">
+              <div class="mockup-dots"><span></span><span></span><span></span></div>
+              <div class="mockup-badge" style="background:#dcfce7; color:#166534; font-size:9px; font-weight:bold; display:flex; align-items:center; justify-content:center;">RINGBACK</div>
+              <div class="mockup-bar"></div>
+              <div class="mockup-bar short"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag" style="color:var(--accent-teal);">Call Management System</span>
+            <h3>RingBackTech</h3>
+            <p>A smart call routing system that automatically directs incoming customer calls to available staff with a clean admin dashboard.</p>
+            <a href="https://skizaclassics.codes/admin/login" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <span>Visit skizaclassics.codes</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Hardware Flow -->
+        <div class="project-card">
+          <div class="project-cover c3">
+            <div class="mockup-window">
+              <div class="mockup-dots"><span></span><span></span><span></span></div>
+              <div class="mockup-badge" style="background:#fae8ff; color:#86198f; font-size:9px; font-weight:bold; display:flex; align-items:center; justify-content:center;">HARDWARE</div>
+              <div class="mockup-bar"></div>
+              <div class="mockup-bar short"></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Hardware Catalog</span>
+            <h3>Hardware Flow</h3>
+            <p>A clean business website showcasing IT products and tech support services, designed for simple and clear customer inquiries.</p>
+            <a href="https://hardware-flow-blue.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <span>Visit hardware-flow-blue.vercel.app</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY WORK WITH US -->
+  <section class="section section-bg" id="why-us">
+    <div class="wrap">
+      <div class="section-head center">
+        <div class="badge success">WHY CHOOSE US</div>
+        <h2>A simple, stress-free experience</h2>
+        <p class="lead">We believe working with a tech partner should be transparent, friendly, and straightforward.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-num">01</div>
+          <h3>Direct Access to Founders</h3>
+          <p>You work directly with Joshua and Maurice from start to finish. No account managers, no confusing tech jargon, just honest communication.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-num">02</div>
+          <h3>Clear &amp; Fair Pricing</h3>
+          <p>We give you clear, upfront quotes before any work begins. No surprise charges, no hidden maintenance fees.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-num">03</div>
+          <h3>60 Days Free Support</h3>
+          <p>We don't disappear after launch. Every project comes with 60 days of free adjustments and dedicated support to make sure you're thrilled.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & INQUIRY SECTION -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="badge">LET'S TALK</div>
+        <h2>Ready to start your project?</h2>
+        <p class="lead">Reach out to us directly or leave a short message below. We usually reply within a few hours.</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Founders Contact Cards -->
+        <div>
+          <div class="founders-stack">
+            
+            <!-- Joshua -->
+            <div class="founder-box">
+              <div class="founder-avatar joshua">J</div>
+              <div class="founder-details">
+                <div class="founder-name">Joshua</div>
+                <div class="founder-role">Co-Founder &amp; Tech Lead</div>
+                <div class="founder-actions">
+                  <a href="tel:0719203724" class="action-pill">📞 0719 203 724</a>
+                  <button class="action-pill wa action-wa" data-phone="0719 203 724" data-owner="Joshua">💬 WhatsApp</button>
+                  <button class="action-pill action-copy" data-phone="0719 203 724" data-owner="Joshua" title="Copy Number">📋 Copy</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Maurice -->
+            <div class="founder-box">
+              <div class="founder-avatar maurice">M</div>
+              <div class="founder-details">
+                <div class="founder-name">Maurice</div>
+                <div class="founder-role">Co-Founder &amp; Operations</div>
+                <div class="founder-actions">
+                  <a href="tel:0702713853" class="action-pill">📞 0702 713 853</a>
+                  <button class="action-pill wa action-wa" data-phone="0702 713 853" data-owner="Maurice">💬 WhatsApp</button>
+                  <button class="action-pill action-copy" data-phone="0702 713 853" data-owner="Maurice" title="Copy Number">📋 Copy</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div style="background: var(--bg-subtle); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px;">
+            <div style="font-weight: 700; font-size: 0.95rem; color: var(--text-main); margin-bottom: 4px;">
+              📍 Nairobi, Kenya (Working Globally)
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+              Whether you are in Nairobi or anywhere else in the world, we collaborate seamlessly over WhatsApp, Zoom, or phone call.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Simple Contact Form -->
+        <div class="contact-form-card">
+          <h3 style="font-size: 1.25rem; margin-bottom: 6px;">Send us a quick message</h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 20px;">Fill out this short form and we will get back to you promptly.</p>
+
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="nameInput">Your Name *</label>
+                <input type="text" id="nameInput" class="form-input" placeholder="e.g. John Kamau" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contactInput">Phone or Email *</label>
+                <input type="text" id="contactInput" class="form-input" placeholder="e.g. 0700 000 000" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="serviceSelect">What do you need help with?</label>
+              <select id="serviceSelect" class="form-input">
+                <option value="Website Design">Website Design</option>
+                <option value="Custom Software / Booking System">Custom Software / Booking System</option>
+                <option value="IT Support & Maintenance">IT Support &amp; Maintenance</option>
+                <option value="Office Wi-Fi / Hardware Setup">Office Wi-Fi / Hardware Setup</option>
+                <option value="Other Question">Other Question</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="messageInput">Tell us a bit about your project *</label>
+              <textarea id="messageInput" class="form-input" placeholder="What does your business do, and what are you looking to create?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px;">
+              Send Message →
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div class="logo">
+          <div class="logo-mark">N</div>
+          <span>Nexora</span>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Nexora. All rights reserved.</div>
+        <div>Web Design &amp; IT Solutions — Nairobi, Kenya</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

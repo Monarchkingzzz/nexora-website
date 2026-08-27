@@ -1,0 +1,11 @@
+{
+  "name": "nexora-website",
+  "version": "1.0.0",
+  "description": "Nexora — Web Design & IT Solutions",
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["web-design", "it-solutions", "portfolio"],
+  "author": "Nexora",
+  "license": "MIT"
+}
